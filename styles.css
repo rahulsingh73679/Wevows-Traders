@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.whatsapp-section {
+    padding: 40px 0;
+}
+
+.whatsapp-card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.whatsapp-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-section {
+    padding: 60px 0;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 24px;
+    padding: 15px;
+    background: #eaeaea;
+    border-radius: 50%;
+}
+
+.icon-box {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer_menu, .footer_profile {
+    margin-bottom: 10px;
+}
+
+.footer_menu a, .footer_profile a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_profile a:hover {
+    color: #f23b3b;
+}
+
+.gradient-custom {
+    background: linear-gradient(to right, #f8cdda, #1d2b64);
+}
+
+.carousel-item img {
+    max-width: 100%;
+}
